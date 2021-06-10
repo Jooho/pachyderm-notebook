@@ -7,8 +7,8 @@ check:
 build:
   build-stratergy: Source
   build-source-script: "image:///opt/app-root/builder"
-  base-image: quay.io/thoth-station/s2i-custom-notebook:latest
+  base-image: "quay.io/thoth-station/s2i-minimal-notebook:latest"
   registry: quay.io
   registry-org: aiisv
-  registry-project: pachyderm-notebook
+  registry-project: s2i-pachyderm-notebook
   registry-secret: aiisv-aicoe-pusher-pull-secret
