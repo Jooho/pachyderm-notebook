@@ -11,4 +11,4 @@ build:
   registry: quay.io
   registry-org: aiisv
   registry-project: s2i-pachyderm-notebook
-  registry-secret: aiisv-aicoe-pusher-pull-secret
+  registry-secret: aicoe-pusher-secret
